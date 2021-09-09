@@ -115,7 +115,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
@@ -129,13 +129,13 @@ table {
 }
 
 body {
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 h1 {
   font-weight: bold;
   font-size: 35px;
-  color: white ;
+  color: white;
 }
 h2 {
   font-size: 18px;
@@ -155,15 +155,21 @@ h3 {
   display: flex;
 }
 span.bonjour {
-    height: 3px;
-    width: 250px;
-    background-color: black;
-    display: block;
-    }
+  height: 3px;
+  width: 250px;
+  background-color: black;
+  display: block;
+}
 
 p {
-    margin-top: 10px;
+  margin-top: 10px;
 }
-.div2:last-child{
-margin-bottom: 70px;
+.div2:last-child {
+  margin-bottom: 70px;
+}
+.div2 .d-flex {
+  align-items: center;
+}
+.div2 p {
+  margin: 0;
 }

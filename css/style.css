@@ -173,3 +173,6 @@ p {
 .div2 p {
   margin: 0;
 }
+.div2:last-child {
+  margin-bottom: 50px;
+}
